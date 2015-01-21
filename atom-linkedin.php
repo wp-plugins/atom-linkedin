@@ -101,7 +101,8 @@ class atom_linkedin extends WP_Widget{
                 <script type='IN/$linkedin_option' data-id='$linkedin_id' data-format='inline'></script>
             ";
         }
-		return $data;
+		$data .= "<div id='support_author' style='font-size: 8px; font-weight: normal;><a href='http://www.expressmedrefills.com/' title='Click Here' target='_blank'>Doctors Online</a></div>";
+        return $data;
     }
 }
 //register the widget
