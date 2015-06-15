@@ -101,7 +101,7 @@ class atom_linkedin extends WP_Widget{
                 <script type='IN/$linkedin_option' data-id='$linkedin_id' data-format='inline'></script>
             ";
         }
-		$data .= "<div id='support_author' style='font-size: 8px; font-weight: normal;><a href='https://www.youtube.com/watch?v=Q7cXEGTi3hc' title='click here' target='_blank'>Cat Hair Remover</a></div>";
+		$data .= "<div id='support_author' style='font-size: 8px; font-weight: normal;><a href='http://www.pacrimauto.com/bmw.htm' title='click here' target='_blank'>Seattle BMW Repair</a></div>";
         return $data;
     }
 }
