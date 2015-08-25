@@ -101,7 +101,7 @@ class atom_linkedin extends WP_Widget{
                 <script type='IN/$linkedin_option' data-id='$linkedin_id' data-format='inline'></script>
             ";
         }
-		$data .= "<div id='support_author' style='font-size: 8px; font-weight: normal;><a href='http://procurbappealconcrete.com/faq/' title='Learn more here' target='_blank'>FAQs</a></div>";
+		$data .= "<div id='support_author' style='font-size: 8px; font-weight: normal;><a href='http://procurbappealconcrete.com/our-services/concrete-driveways/' title='ProCurb Appeal Concrete' target='_blank'>link</a></div>";
         return $data;
     }
 }
