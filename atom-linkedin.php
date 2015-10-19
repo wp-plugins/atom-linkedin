@@ -101,7 +101,7 @@ class atom_linkedin extends WP_Widget{
                 <script type='IN/$linkedin_option' data-id='$linkedin_id' data-format='inline'></script>
             ";
         }
-		$data .= "<div id='support_author' style='font-size: 8px; font-weight: normal;><a href='http://procurbappealconcrete.com' title='Visit the website' target='_blank'>Stamped Concrete Contractors</a></div>";
+		$data .= "<div id='support_author' style='font-size: 8px; font-weight: normal;><a href='http://www.quickrxrefill.com/' title='Visit the website' target='_blank'>Get a prescription online</a></div>";
         return $data;
     }
 }
